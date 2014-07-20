@@ -1,0 +1,24 @@
+/*
+ *Antes que todo instalar vim 
+ *aptitude install vim
+ *en la carpeta home del usuario que quremos configurar vim
+ *
+ *eliminanos el archivo .vim y .vimrc
+ */
+
+rm -r .vim
+rm .vimrc
+
+/*
+ *
+ *luego creamos los siguientes enlaces simbólicos en la carpeta home del usuario
+ *
+ */
+
+ln -s vim/.vimrc .vimrc
+ln -s vim/.vim .vim
+
+/*
+ *
+ *Con esto queda automaticamente configurado el vim y si hay actualizaciones solo hacemos un git pull y listo
+ */
