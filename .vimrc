@@ -15,6 +15,6 @@ map <F5> \cs<cr>
 map <F6> \cu<cr>
 
 "para ver archivos ocultos y que se qite cuando se lecciona un archivo
-let NERDTreeShowHidden=1  
+let NERDTreeShowHidden=0
 let NERDTreeQuitOnOpen=1 
 filetype plugin on
