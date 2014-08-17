@@ -1,9 +1,5 @@
 "set number
 syntax on
-autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-set keywordprg=pman
-autocmd FileType php noremap  :!/usr/bin/php -l %
-au BufRead,BufNewFile *.html,*.htm set filetype=php
 map <F2> :NERDTreeToggle<cr>
 
 map <F3> :MRU<cr>
