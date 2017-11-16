@@ -10,7 +10,8 @@ rm -r .vim
 rm .vimrc
 
 /*
- *
+ *descargamos desde github el proyecto vim de chaleleon (renombramos vim-master por vim y 
+ *lo copiamos en el directorio home del usuario
  *luego creamos los siguientes enlaces simbólicos en la carpeta home del usuario
  *
  */
