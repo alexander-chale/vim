@@ -1,0 +1,12 @@
+Esta configuración espcial de vim realiza las siguientes acciones:
+
+  1.- Coloca números a cada fila del archivo, evitando colocar a mano el comando set number
+  2.- Coloca el reconocimiento de sintaxis en on
+  3.- Con la tecla <F2> abre un arbol en la parte izquierda donde podemos navegar por los directorios
+  y cambiar archivos automáticamente.
+  4.- Con la tecla <f3> abre un terminal en la parte inferior y nos muestra los ultimos archivos vistos o editados en la sesión, 
+  si es el primer archivo en abrir simplemente no muestra nada
+  5.- Con la tecla <F4> un simple comentario
+  6.- Con la tecla <F5> comentario sexy 
+  7.- Con la tecla <F6> borra un comentario 
+
